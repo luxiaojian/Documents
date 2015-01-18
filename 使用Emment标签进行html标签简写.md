@@ -143,4 +143,78 @@
 				<li class="item7"></li>
 			</ul>
 		</div>  
+
+##HTML中的简写语法
+* `!`或者`html:5`  
+  
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Document</title>
+		</head>
+		<body>
+	
+		</body>
+		</html>   
+* `meta:utf`  
+
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">  
+
+* `link:css`  
+
+		<link rel="stylesheet" href="style.css">  
 		
+* `link:favicon`
+
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">  
+		
+* `link:touch`
+
+		<link rel="apple-touch-icon" href="favicon.png">  
+* `style`  
+
+		<style></style>  
+		
+* `script:src`
+
+		<script src=""></script>
+		
+##css中的简写语法  
+
+* 快速创建`font-face`  
+
+	* `@f`
+	
+			@font-face {
+				font-family:;
+				src:url();
+			}
+		
+	* `f+`  
+	
+			@font-face {
+				font-family: 'FontName';
+				src: url('FileName.eot');
+				src: url('FileName.eot?#iefix') format('embedded-opentype'),
+				 	url('FileName.woff') format('woff'),
+				 	url('FileName.ttf') format('truetype'),
+				 	url('FileName.svg#FontName') format('svg');
+				font-style: normal;
+				font-weight: normal;
+			}	
+			
+* 补足浏览器私有前缀  
+	* 私有前缀说明 `w` -`-webkit-` `m`-`-moz-` `s`-`-ms-` `o`-`-o-`
+     比如在输入`-wm-trf`
+     
+     		-webkit-transform: ;
+			-moz-transform: ;[link](http://)
+			transform: ;	
+
+###一些关于Emmet的文档  
+* [Emmet Documentation](http://docs.emmet.io/cheat-sheet/)
+* [Emmet文档](http://docs.emmet.io/abbreviations/syntax/)
+
+
+
