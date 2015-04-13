@@ -12,7 +12,8 @@
 自己最近一直在研究`HTML5`的一些新的JS API，今天寸志介绍他们在自己的产品`Teambition`中采用HTML5新的`Notification`API 在用户关闭浏览器的情况下来通知用户新的信息。使用`link preftch`来离线一些资源，这样在用户断网的情况下同样可以获得很好的体验。自己在最后的圆桌环节同时也向今天的四位分享人提问了在现在的成熟的`Web`产品中有哪些新的HTML5的特性在产品中有应用。  
 我这里初略整理了一下答案：  
 
-* 使用localStorage来储存一些用户的信息，在一些web的应用中会采用indexDB来储存一些数据到本地。
+* 使用localStorage来储存一些用户的信息，在一些web的应用中会采用ihttp://i2.tietuku.com/259b179bbf3810c1.jpgndexDB来储存一些数据到本地。
+* 使用`Notification`API在用户没有使用浏览器的浏览网站的情况下来通知用户一些信息。
 
 ![](http://i2.tietuku.com/16547a28f187c0d2.png)  
 
