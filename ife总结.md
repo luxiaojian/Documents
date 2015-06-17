@@ -1,0 +1,11 @@
+#百度前端IFE知识点总结
+[CSS命名](http://www.zhihu.com/question/21935157)
+[CSS布局新手神站](http://zh.learnlayout.com/)
+[CSS处理圆角](http://www.poluoluo.com/jzxy/200905/62364.html)
+[说说flexbox](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)  
+[text-decoration的新特性](https://css-tricks.com/more-control-over-text-decoration/)  
+[大放异彩的伪元素可以做什么](http://www.w3cplus.com/css3/pseudo-element-roundup.html)
+[利用伪元素实现float:both](https://css-tricks.com/float-center/)  
+[创建一个body边框](https://css-tricks.com/body-border/)  
+[margin系列详析](http://www.ituring.com.cn/minibook/1024)  
+[网页头部的声明应该是用 lang="zh" 还是 lang="zh-cn"？](http://www.zhihu.com/question/20797118)
