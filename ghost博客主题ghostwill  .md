@@ -4,7 +4,7 @@
 
 ## 主题特性介绍  
 ### 响应式  
-这年头一个网站没有响应式，都不好意思拿出来。[鬼才晓得]才晓得这个主题对移动设备进行了优化，对导航栏菜单和文章缩略图用`media query`进行了处理。但交互还需要进一步优化。  
+这年头一个网站没有响应式，都不好意思拿出来。[鬼才晓得]才晓得这个主题移动设备进行了优化，对导航栏菜单和文章缩略图用`media query`进行了处理。但交互还需要进一步优化。  
 
 ![](http://7qna7i.com1.z0.glb.clouddn.com/screen.png)  
 **中屏上显示效果**
@@ -19,7 +19,7 @@
 ### 视差滚动效果
 ![](http://7qna7i.com1.z0.glb.clouddn.com/parallex-background.gif)
 
-这个效果用到一个插件[ Stellar.js](http://markdalgleish.com/projects/stellar.js/),这个插件的效果就是给你想要添加视差效果元素添加视差效果。
+这个效果用到一个插件[ Stellar.js](http://markdalgleish.com/projects/stellar.js/),这个插件的效果就是给元素添加视差效果。
 
 ```js
 /*顶部图片视觉滚差*/
@@ -80,7 +80,6 @@ function urlIconlize(url){
         'github':'icon-github',
         'douban':'icon-douban',
         'google':'icon-google',
-        'luolei':'icon-luolei',
         'dribble':'icon-dribble'
 
     }
